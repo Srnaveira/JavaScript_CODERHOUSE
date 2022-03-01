@@ -1,0 +1,285 @@
+body{
+    background-color: black;
+    color: white;
+
+}
+.contenedorLibros {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem;
+    padding: 2rem;       
+}
+
+
+.tituloH2{
+    display:flex;
+    margin-top: 0.6rem;
+    justify-content: center;
+    align-self: center;
+    width: 365px;
+    height: 85px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    text-align: center;
+    border-bottom: solid black 3px;
+}
+
+.autorSpan{
+    margin-top: 0.3rem;
+}
+
+.priceSpan{
+    margin-top: 0.3rem;
+}
+
+.imagenTapa{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.botonesAccion{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+    padding: 1rem;
+    border-radius: 30px;
+    width: 350px;
+    align-self: center;
+    border-radius: 10px;
+}
+
+
+.book-name {
+    border-radius: 15px;
+    background-color: rgb(121, 139, 156);
+    color: black;
+    margin: 2rem;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 1px 15px 1px black;
+    border: black solid 2px;
+    width: 400px;
+    height: 700px;
+    text-align: center;
+    padding: 9px;   
+}
+
+a{
+    font-family: Arial, Helvetica, sans-serif;    
+}
+
+.navbar-brand{
+    font-size: 5rem;
+}
+
+
+.resenia{
+    position: fixed;
+    background-color: #000000BB;
+    height: 100%;
+    width: 100%;
+    display: none;
+    inset: 0;
+
+
+}
+
+.hijoResenia{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 900px;
+    height: 600px;
+    background-color: white;
+    border-radius: 10px;
+    position: absolute;
+    top: 15%;
+    padding: 1vh 4vh 1vh 4vh;
+    left: calc(40% - 250px);            
+}
+
+.hijoResenia__titulo > h2{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.hijoResenia__texto{
+    padding-bottom: 1rem;
+    border-bottom: solid black 1px;
+
+}
+
+.hijoResenia__texto > p{
+    text-align: justify;
+
+}
+
+.hijoResenia__bttn{
+    position: absolute;
+    bottom: 5%;
+    left: 65%
+
+}
+
+.hijoResenia__bttn > button {
+    margin-left: 70%;
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+    font-weight: 400;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 140px;
+    height: 42px;
+}    
+
+.hijoResenia__bttn > button:hover{
+    justify-content: end;
+    background-color: red;
+
+
+}
+
+
+#testeobbttn{
+    margin-right: 15px;
+
+}
+
+
+.book-name > .botonesAccion > button {
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+    font-weight: 400;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 140px;
+    height: 42px;
+    justify-content: space-between;    
+    align-items: center;
+
+}
+
+
+.checkCarrito{
+    position: fixed;
+    background-color: #000000BB;
+    height: 100%;
+    width: 100%;
+    display: none;
+    inset: 0;
+}
+
+.hijocarrito{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 800px;
+    height: auto;
+    background-color: white;
+    border-radius: 10px;
+    position: absolute;
+    top: 15%;
+    padding: 1vh 4vh 1vh 4vh;
+    left: calc(40% - 250px);             
+}
+
+#elementosCarr{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 10px;
+    align-content: center;
+}
+
+.productos{
+    color: black;
+    font-weight: 500;
+    width: 250px;
+}
+
+.productosPrecio{
+    color: black;
+    font-weight: 500;
+}
+
+.hijocarrito__bttn{
+    display: flex;
+    justify-content: space-evenly;    
+}
+
+.hijocarrito__bttn > button {
+        border-radius: 10px;
+        background-color: blue;
+        color: white;
+        font-weight: 400;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        width: 180px;
+        height: 42px;
+        justify-content: space-between;    
+        align-items: center;
+}
+
+.hijocarrito__bttn > button:hover{
+    justify-content: end;
+    background-color: red;
+}
+
+
+.leyendas{
+    display: flex;
+    flex-direction: row;  
+    justify-content: space-between;
+    color: blue;
+    border-top: black 2px solid;
+    border-bottom: black 2px solid;
+}
+h5{
+    padding-top: 5px;
+    
+}
+
+.unicaDiferente{
+    width: 315px;
+    text-align: end;
+
+}
+
+.ElementoTotales{
+    display:  flex;
+    justify-content: space-between;
+    font-size: large;
+    font-weight: 900;
+    color: red;
+}
+
+li{
+  margin-left: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+h2{
+    align-self: center;
+    color: red;
+    font-weight:bolder ;
+}    
+
+span{
+    font-size: 1.4rem;
+    padding-bottom: 0.5rem;                
+    }    
+
+img{
+    padding-top: 15px;  
+    height: 420px;
+    width: 360px;
+    align-self: center;
+    padding-bottom: 1rem;
+    }
+
